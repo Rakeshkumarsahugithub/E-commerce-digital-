@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+
+  header {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: palegreen;
+    padding: 20px;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  header form {
+    margin-top: 10px;
+  }
+
+  header input,
+  header button {
+    padding: 8px;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  header button:hover,
+  header input:hover {
+    background-color: rgb(205, 231, 179);
+  }
+
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    flex: 1;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+  }
+
+  nav a:hover {
+    background-color: #d2dbb9;
+  }
+
+  .category {
+    margin: 20px;
+  }
+
+  .category h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+  }
+
+  .product img {
+    width: 150px;
+    height: auto;
+  }
+
+  .product .price,
+  .product .discount-price {
+    font-size: 1.2em;
+    color: #333;
+  }
+
+  .product .discount-price {
+    text-decoration: line-through;
+    color: grey;
+  }
+
+  .product .discount {
+    color: red;
+  }
+
+  .product button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+
+  .product button:hover {
+    background-color: rgb(205, 231, 179);
+  }
+
+  footer {
+    background-color: rgb(169, 187, 193);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .product img {
+    width: 200px;
+
+    height: 200px;
+
+  }
+
+  .Jigdf {
+    margin-left: 200px;
+  }
